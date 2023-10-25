@@ -1,4 +1,21 @@
+
 body{
-    background-color:darkgray
-    color:red
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #b5b6bd;
+    color: ##000000;
+   }
+.titulo-destaque {
+        color:#9b1111;
+        font-size: 36px;
+        
+.subTitulo{
+    color:#000000;
+    font-size: 20px;
+}
+.apresentacao { 
+     margin: 0%;
+}
+.conteudo{
+    width: 600px ;
 }
