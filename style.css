@@ -1,10 +1,10 @@
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  @import url('https://fonts.googleapis.com/css2? family= Anton &família= Black+Ops+One & display=swap');
 </style>
-<estilo>
-@import url('https://fonts.googleapis.com/css2? family= Anton &família= Black+Ops+One & display=swap');
-</estilo>
+
+
 
 body{
     height: 100vh;
@@ -27,4 +27,19 @@ body{
 }
 .conteudo{
     width: 600px ;
+}
+.botaoCadasto{
+    display: flex;
+    justify-content: space-between;
+}
+.botao{
+    background-color: #22d722;
+    width: 380px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px;
+    text-decoration: nome ;
+    color: #000000;
+    font-family: 'Anton', sans-serif;
 }
