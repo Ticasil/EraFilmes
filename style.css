@@ -32,7 +32,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.botao{
+.botaoCadastro{
     background-color: #22d722;
     width: 380px;
     text-align: center;
@@ -42,4 +42,5 @@ body{
     text-decoration: nome ;
     color: #000000;
     font-family: 'Anton', sans-serif;
+    font-weight: 600;
 }
