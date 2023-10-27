@@ -4,21 +4,27 @@
   @import url('https://fonts.googleapis.com/css2? family= Anton &família= Black+Ops+One & display=swap');
 </style>
 
+:root{
 
+    --cor-primaria: #a0a0a0;
+    --cor-secundaria:#000000;
+    --cor-terciaria: #7e91c7;
+
+}
 
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: #b5b6bd;
-    color: ##000000;
+    background-color: var(cor-primaria)
+    
    }
 .titulo-destaque {
-        color:#9b1111;
+        color: var(--cor-secundaria)
         font-size: 36px;
         font-family: 'Anton', sans-serif;
         
 .subTitulo{
-    color:#000000;
+    color:var(--cor-secundaria);
     font-size: 20px;
     font-family: 'Anton', sans-serif;
 }
@@ -33,7 +39,7 @@ body{
     justify-content: space-between;
 }
 .botaoCadastro{
-    background-color: #22d722;
+    background-color: var(--cor-primaria);
     width: 380px;
     text-align: center;
     border-radius: 16px;
@@ -41,7 +47,7 @@ body{
     font-size: 24px;
     padding: 21.5px;
     text-decoration: nome ;
-    color: #000000;
+    color: var(--cor-secundaria);
     font-family: 'Anton', sans-serif;
     font-weight: 600;
 }
