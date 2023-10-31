@@ -5,39 +5,24 @@
 </style>
 
 :root{
-
     --cor-primaria: #000000;
     --cor-secundaria:#e93434;
     --cor-terciaria: #7e91c7;
-
 }
-
-.body{
-    height: 100vh;
-    box-sizing: border-box;
-    color: var(--cor-primaria);
-    background-color: var(cor-primaria)
-    
-   }
+body{
+   
+    background-color: var(--cor-primaria);
+    background-image: url("../imagem/CINEMA.jpg");
+}
 .titulo-destaque {
         color: var(--cor-secundaria)
-        font-size: 36px;
+        font-size: 2,25rem;
         font-family: 'Anton', sans-serif;
-        
+}        
 .subTitulo{
     color:var(--cor-secundaria);
     font-size: 20px;
     font-family: 'Anton', sans-serif;
-}
-.apresentacao { 
-     margin: 0%;
-}
-.conteudo{
-    width: 600px ;
-}
-.botaoCadasto{
-    display: flex;
-    justify-content: space-between;
 }
 .botaoCadastro{
     background-color: var(--cor-primaria);
@@ -51,4 +36,10 @@
     color: var(--cor-secundaria);
     font-family: 'Anton', sans-serif;
     font-weight: 600;
+}
+@media(max-width: 1200px;){
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+
 }
