@@ -15,8 +15,8 @@ body{
     background-image: url("../imagem/CINEMA.jpg");
 }
 .titulo-destaque {
-        color: var(--cor-secundaria)
-        font-size: 2,25rem;
+        color: var(--cor-terciaria);
+        font-family: 2,25rem;
         font-family: 'Anton', sans-serif;
 }        
 .subTitulo{
